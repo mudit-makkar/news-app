@@ -54,7 +54,11 @@ const NewsArticles = ({ articles }) => {
                 </i>
               </p>
 
-              <a href={article.url} style={{ textDecoration: "none" }}>
+              <a
+                href={article.url}
+                style={{ textDecoration: "none" }}
+                target="_blank"
+              >
                 Read More
               </a>
             </Item>
